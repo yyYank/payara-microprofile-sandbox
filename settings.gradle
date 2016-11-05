@@ -1,3 +1,2 @@
 rootProject.name = 'payara-microprofile-sandbox'
-include 'payara-micro-profile'
 
