@@ -10,5 +10,5 @@ Payara MicroProfileを利用しています。
 3ステップで動作確認が出来ます。
 
 * git clone
-* gradle build run
+* ./gradlew build run
 * http://localhost:8080/Sandbox/hello?name=worldへアクセス
