@@ -1,9 +1,9 @@
 # payara-microprofile-sandbox
 
 
-## what is this?
+## What is this?
 
-personal project for Java EE sandbox on Payara MicroProfile.
+Personal project for Java EE sandbox on [Payara MicroProfile](http://www.payara.fish/payara_micro).
 
 
 ## Usage
