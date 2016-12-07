@@ -1,14 +1,15 @@
 # payara-microprofile-sandbox
 
 
-## これはなに？
+## What is this?
 
-個人的にJava EE の機能とかを試す時用の動作環境プロジェクトです。  
-Payara MicroProfileを利用しています。
+Personal project for Java EE sandbox on [Payara MicroProfile](http://www.payara.fish/payara_micro).
 
 
-3ステップで動作確認が出来ます。
+## Usage
 
-* git clone
-* ./gradlew war run
-* http://localhost:8080/Sandbox/hello?name=worldへアクセス
+It's easy. just 3 steps.
+
+1. git clone
+2. ./gradlew war run
+3. access to http://localhost:8080/Sandbox/hello?name=world
