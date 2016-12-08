@@ -18,12 +18,12 @@ public class EntryPointBean {
     @Inject
     ConcurrentBean concurrentBean;
 
-    @Resource(name = "concurrent/DefaultManagedExecutorService")
-    ManagedExecutorService executorService;
+//    @Resource(name = "concurrent/DefaultManagedExecutorService")
+//    ManagedExecutorService executorService;
 
     public void exec() throws InterruptedException {
         FutureTask<Boolean> task = new FutureTask<>(() -> concurrentBean.listen());
-        executorService.submit(task);
-        executorService.awaitTermination(60L, TimeUnit.SECONDS);
+//        executorService.submit(task);
+//        executorService.awaitTermination(60L, TimeUnit.SECONDS);
     }
 }
